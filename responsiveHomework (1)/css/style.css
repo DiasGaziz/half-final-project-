@@ -46,6 +46,25 @@ div{
 
 
 
+/* Tablet View - Triggers at 772px */
+@media (min-width: 772px) {
+    div {
+        width: 45%;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    img {
+        max-height: 30vh;
+    }
+}
+
+/* Large Screen View - Triggers at 998px */
+@media (min-width: 998px) {
+    div {
+        width: 30%;
+    }
+}
 
 
 
